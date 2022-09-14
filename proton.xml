@@ -34,14 +34,11 @@
   <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="NS" groups="NS" />
   <project name="kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="NS" groups="NS" />
   <project name="manifest" path="manifest" remote="NS" groups="NS" />
-  <project name="packages_apps_StatixColorStub" path="packages/apps/StatixColorStub" remote="NS" groups="NS" />
   <project name="packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="NS" groups="NS" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="graphene" groups="graphene" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="NS" groups="NS" />
-  <project name="packages_apps_StatixThemePicker" path="packages/apps/StatixThemePicker" remote="NS" groups="NS" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="NS" groups="NS" />
-  <project name="packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" remote="NS" groups="NS" />
   <project name="PixelExperience/packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="github" groups="github" revision="twelve-plus" />
   <project name="prebuilts_clang_host_linux-x86_clang-r416183b1" path="prebuilts/clang/host/linux-x86/clang-r416183b1" remote="NS" groups="NS" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="NS" groups="NS" />
