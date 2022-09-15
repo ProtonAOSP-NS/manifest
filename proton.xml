@@ -5,6 +5,8 @@
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="NS" fetch="https://github.com/ProtonAOSP-NS" revision="tm" />
   <remote name="graphene" fetch="https://github.com/GrapheneOS" revision="13" />
+  <remote name="lineage" fetch="https://github.com/LineageOS" revision="lineage-20.0" />
+  <remote name="pe" fetch="https://github.com/PixelExperience" revision="thirteen" />
 
   <project name="bionic" path="bionic" remote="NS" groups="NS" />
   <project name="build" path="build/make" remote="NS" groups="NS">
@@ -23,10 +25,7 @@
   <project name="device_google_bonito" path="device/google/bonito" remote="NS" groups="NS" />
   <project name="device_proton_sepolicy" path="device/proton/sepolicy" remote="NS" groups="NS" />
   <project name="platform_external_Camera" path="external/Camera" remote="graphene" groups="graphene" />
-  <project name="external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" remote="NS" groups="NS" />
-  <project name="external_json-c" path="external/json-c" remote="NS" groups="NS" />
-  <project name="external_noto-fonts" path="external/noto-fonts" remote="NS" groups="NS" />
-  <project name="external_roboto-fonts" path="external/roboto-fonts" remote="NS" groups="NS" />
+  <project name="frameworks_av" path="frameworks/av" remote="NS" groups="NS" />
   <project name="frameworks_base" path="frameworks/base" remote="NS" groups="NS" />
   <project name="hardware_qcom_camera" path="hardware/qcom/camera" remote="NS" groups="NS" />
   <project name="hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="NS" groups="NS" />
@@ -36,10 +35,13 @@
   <project name="manifest" path="manifest" remote="NS" groups="NS" />
   <project name="packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="NS" groups="NS" />
   <project name="platform_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="graphene" groups="graphene" />
+  <project name="packages_apps_Nfc" path="packages/apps/Nfc" remote="NS" groups="NS" />
   <project name="kdrag0n/android_packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="github" groups="proton" revision="main" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="NS" groups="NS" />
+  <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="NS" groups="NS" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="NS" groups="NS" />
-  <project name="PixelExperience/packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="github" groups="github" revision="twelve-plus" />
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" groups="lineage" />
+  <project name="packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="pe" groups="pe" revision="twelve-plus" />
   <project name="prebuilts_clang_host_linux-x86_clang-r416183b1" path="prebuilts/clang/host/linux-x86/clang-r416183b1" remote="NS" groups="NS" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="NS" groups="NS" />
   <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="NS" groups="NS" />
@@ -47,9 +49,12 @@
   <project name="system_core" path="system/core" remote="NS" groups="NS" />
   <project name="system_sepolicy" path="system/sepolicy" remote="NS" groups="NS" />
   <project name="system_update_engine" path="system/update_engine" remote="NS" groups="NS" />
+  <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="pe" groups="pe" />
+  <project name="vendor_custom-preference" path="vendor/custom-preference" remote="pe" groups="pe" />
   <project name="EnesSastim/vendor_gms" path="vendor/gms" remote="gitlab" revision="tm" />
   <project name="vendor_google_bonito" path="vendor/google/bonito" remote="NS" groups="NS" />
   <project name="vendor_google_sargo" path="vendor/google/sargo" remote="NS" groups="NS" />
+  <project name="vendor_pixel-framework" path="vendor/pixel-framework" remote="NS" groups="NS" />
   <project name="vendor_proton" path="vendor/proton" remote="NS" groups="NS" />
   <project name="vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="NS" groups="NS" />
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="NS" groups="NS" />
