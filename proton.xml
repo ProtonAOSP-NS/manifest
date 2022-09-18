@@ -41,7 +41,6 @@
   <project name="packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="NS" groups="NS" />
   <project name="packages_apps_Updater" path="packages/apps/Updater" remote="NS" groups="NS" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" groups="lineage" />
-  <project name="packages_overlays_ThemeIcons" path="packages/overlays/ThemeIcons" remote="pe" groups="pe" revision="twelve-plus" />
   <project name="prebuilts_clang_host_linux-x86_clang-r416183b1" path="prebuilts/clang/host/linux-x86/clang-r416183b1" remote="NS" groups="NS" />
   <project name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="NS" groups="NS" />
   <project name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" remote="NS" groups="NS" />
@@ -51,7 +50,7 @@
   <project name="system_update_engine" path="system/update_engine" remote="NS" groups="NS" />
   <project name="vendor_codeaurora_telephony" path="vendor/codeaurora/telephony" remote="pe" groups="pe" />
   <project name="vendor_custom-preference" path="vendor/custom-preference" remote="pe" groups="pe" />
-  <project name="EnesSastim/vendor_gms" path="vendor/gms" remote="gitlab" revision="tm" />
+  <project name="EnesSastim/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tm" />
   <project name="vendor_google_bonito" path="vendor/google/bonito" remote="NS" groups="NS" />
   <project name="vendor_google_sargo" path="vendor/google/sargo" remote="NS" groups="NS" />
   <project name="vendor_pixel-framework" path="vendor/pixel-framework" remote="NS" groups="NS" />
