@@ -56,6 +56,7 @@
   <project name="vendor_google_sargo" path="vendor/google/sargo" remote="NS" />
   <project name="vendor_pixel-framework" path="vendor/pixel-framework" remote="NS" />
   <project name="vendor_proton" path="vendor/proton" remote="NS" />
+  <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="lineage" />
   <project name="vendor_qcom_opensource_commonsys-intf_display" path="vendor/qcom/opensource/commonsys-intf/display" remote="NS" />
   <project name="vendor_qcom_opensource_core-utils" path="vendor/qcom/opensource/core-utils" remote="NS" />
   <project name="vendor_qcom_opensource_thermal-engine" path="vendor/qcom/opensource/thermal-engine" remote="NS" />
