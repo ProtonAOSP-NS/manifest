@@ -25,6 +25,7 @@
   <project name="device_google_bonito" path="device/google/bonito" remote="NS" />
   <project name="device_proton_sepolicy" path="device/proton/sepolicy" remote="NS" />
   <project name="platform_external_Camera" path="external/Camera" remote="graphene" />
+  <project name="android_external_json-c" path="external/json-c" remote="lineage" />
   <project name="frameworks_av" path="frameworks/av" remote="NS" />
   <project name="frameworks_base" path="frameworks/base" remote="NS" />
   <project name="hardware_qcom_camera" path="hardware/qcom/camera" remote="NS" />
