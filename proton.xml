@@ -23,16 +23,26 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project name="device_google_bonito" path="device/google/bonito" remote="NS" />
+  <project name="device_google_taimen" path="device/google/taimen" remote="NS" />
+  <project name="device_google_wahoo" path="device/google/wahoo" remote="NS" />
+  <project name="device_google_walleye" path="device/google/walleye" remote="NS" />
   <project name="device_proton_sepolicy" path="device/proton/sepolicy" remote="NS" />
   <project name="platform_external_Camera" path="external/Camera" remote="graphene" />
   <project name="android_external_json-c" path="external/json-c" remote="lineage" />
   <project name="frameworks_av" path="frameworks/av" remote="NS" />
   <project name="frameworks_base" path="frameworks/base" remote="NS" />
-  <project name="hardware_qcom_camera" path="hardware/qcom/camera" remote="NS" />
-  <project name="hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="NS" />
-  <project name="hardware_qcom_sdm845_media" path="hardware/qcom/sdm845/media" remote="NS" />
-  <project name="hardware_qcom_wlan" path="hardware/qcom/wlan" remote="NS" />
+  <project name="frameworks_native" path="frameworks/native" remote="NS" />
+  <project name="frameworks_opt_telephony" path="frameworks/opt/telephony" remote="NS" />
+  <project name="android_hardware_lineage_compat" path="hardware/lineage/compat" remote="lineage" />
+  <project name="android_hardware_qcom_camera" path="hardware/qcom/camera" remote="lineage" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display" remote="lineage" />
+  <project name="android_hardware_qcom_gps" path="hardware/qcom/gps" remote="lineage" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media" remote="lineage" />
+  <project name="android_hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="lineage" />
+  <project name="android_hardware_qcom_sdm845_media" path="hardware/qcom/sdm845/media" remote="lineage" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="lineage" />
   <project name="kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="NS" />
+  <project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="NS" />
   <project name="manifest" path="manifest" remote="NS" />
   <project name="packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="NS" />
   <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="lineage" />
@@ -55,6 +65,8 @@
   <project name="EnesSastim/vendor_gapps" path="vendor/gapps" remote="gitlab" revision="tm" />
   <project name="vendor_google_bonito" path="vendor/google/bonito" remote="NS" />
   <project name="vendor_google_sargo" path="vendor/google/sargo" remote="NS" />
+  <project name="vendor_google_taimen" path="vendor/google/taimen" remote="NS" />
+  <project name="vendor_google_walleye" path="vendor/google/walleye" remote="NS" />
   <project name="vendor_pixel-framework" path="vendor/pixel-framework" remote="NS" />
   <project name="vendor_proton" path="vendor/proton" remote="NS" />
   <project name="android_vendor_qcom_opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="lineage" />
