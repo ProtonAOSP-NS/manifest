@@ -10,6 +10,7 @@
   <remote name="pe-gitlab" fetch="https://gitlab.pixelexperience.org/android" revision="thirteen" />
 
   <project name="bionic" path="bionic" remote="NS" />
+  <project name="bootable_recovery" path="bootable/recovery" remote="NS" />
   <project name="build" path="build/make" remote="NS">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
