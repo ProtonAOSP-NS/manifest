@@ -35,6 +35,7 @@
   <project name="kernel_google_msm-4.9" path="kernel/google/msm-4.9" remote="NS" />
   <project name="kernel_google_wahoo" path="kernel/google/wahoo" remote="NS" />
   <project name="manifest" path="manifest" remote="NS" />
+  <project name="packages_apps_Dialer" path="packages/apps/Dialer" remote="NS" />
   <project name="packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="NS" />
   <project name="packages_apps_RepainterServicePriv" path="packages/apps/RepainterServicePriv" remote="NS" />
   <project name="packages_apps_Settings" path="packages/apps/Settings" remote="NS" />
@@ -66,7 +67,10 @@
   <project name="android_hardware_qcom_sdm845_display" path="hardware/qcom/sdm845/display" remote="lineage" />
   <project name="android_hardware_qcom_sdm845_media" path="hardware/qcom/sdm845/media" remote="lineage" />
   <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="lineage" />
+  <project name="android_packages_apps_Contacts" path="packages/apps/Contacts" remote="lineage" />
+  <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="lineage" />
   <project name="android_packages_apps_Jelly" path="packages/apps/Jelly" remote="lineage" />
+  <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" remote="lineage" />
   <project name="android_packages_apps_ThemePicker" path="packages/apps/ThemePicker" remote="lineage" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="lineage" />
   <project name="android_vendor_qcom_opensource_interfaces" path="vendor/qcom/opensource/interfaces" remote="lineage" />
